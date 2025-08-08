@@ -14,3 +14,4 @@ print(f'{full_name} \n {university} \n {lga} \n {fav_food}')
 # print(university)
 # print(lga)
 # print(fav_food)
+
