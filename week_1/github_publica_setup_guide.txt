@@ -1,0 +1,52 @@
+
+How to Set Up and Clone the 'publica' GitHub Repository on Another PC
+====================================================================
+
+Step 1: Install Git
+-------------------
+- Go to: https://git-scm.com/downloads
+- Download Git for your operating system.
+- Run the installer and accept default settings.
+- After installation, right-click anywhere and select “Git Bash Here”.
+
+Step 2: Create a 'github' Folder
+--------------------------------
+1. Open Git Bash.
+2. Run the following commands:
+
+   mkdir ~/github
+   cd ~/github
+
+Step 3: Clone the 'publica' Repository from GitHub
+--------------------------------------------------
+1. In Git Bash, run this (replace 'your-username' with your GitHub username):
+
+   git clone https://github.com/your-username/publica.git
+
+2. This will create:
+
+   ~/github/publica/
+
+Step 4: Configure Git (Only if not done before)
+-----------------------------------------------
+Run the following commands (replace with your actual name and email):
+
+   git config --global user.name "Your Name"
+   git config --global user.email "you@example.com"
+
+Step 5: Pull Latest Changes (When Needed)
+-----------------------------------------
+To update the local copy with the latest changes from GitHub:
+
+   cd ~/github/publica
+   git pull
+
+Step 6: Push Changes (When You Make Edits)
+------------------------------------------
+After making changes or adding new weekly folders:
+
+   git add .
+   git commit -m "Your message here"
+   git push
+
+You're all set!
