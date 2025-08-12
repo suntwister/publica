@@ -20,7 +20,31 @@
 # split_input = list(input_2)
 # print(len(split_input))
 
-# Task 4
-input_3 = input("Pls enter 5 of your names seperated by space: ")
-input_3.lower()
-print(input_3)
+# # Task 4
+# input_3 = input("Pls enter 5 of your names seperated by space:\n ").split()
+# input_3 = [input_3.lower() for input_3 in input_3]
+# sort1 = sorted(input_3)
+# print("\n".join(sort1))
+
+# # Task 5
+# name_list = []
+# score_list = []
+# input_name_1 = input("Pls enter your first student name:\n ")
+# input_name_2 = input("Pls enter your second student name:\n ")
+# input_name_3 = input("Pls enter your third student name:\n ")
+# name_list.append(input_name_1)
+# name_list.append(input_name_2)
+# name_list.append(input_name_3)
+# print(name_list)
+# input_score_1 = input(f"Enter the score for {input_name_1}\n: ")
+# input_score_2 = input(f"Enter the score for' {input_name_2}\n: ")
+# input_score_3 = input(f"Enter the score for' {input_name_3}\n:" )
+# score_list.append(input_score_1)
+# score_list.append(input_score_2)
+# score_list.append(input_score_3)
+# print(score_list)
+# print(f"{name_list[0]}:\t{score_list[0]} \n{name_list[1]}:\t{score_list[1]} \n{name_list[2]}:\t{score_list[2]}")
+
+# Task 6
+input_word = input("Enter a word: ")
+print(len(input_word))
