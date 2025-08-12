@@ -45,6 +45,20 @@
 # print(score_list)
 # print(f"{name_list[0]}:\t{score_list[0]} \n{name_list[1]}:\t{score_list[1]} \n{name_list[2]}:\t{score_list[2]}")
 
-# Task 6
-input_word = input("Enter a word: ")
-print(len(input_word))
+# # Task 6
+# input_word = input("Enter a word: ")
+# print(len(input_word))
+# check_upper = input_word.isupper()
+# check_lower = input_word.islower()
+# check_title = input_word.istitle()
+# revers = input_word[::-1]
+# print(revers)
+
+# Task 7
+cities = ["Lagos", "Ibadan", "Abeokuta", "Ijebu-ode", "Shagam"]
+#print(cities)
+cities[2] = "Ilorin"
+# Remove last city
+
+cities.insert(0, "Abuja")
+print(cities[0:4])
