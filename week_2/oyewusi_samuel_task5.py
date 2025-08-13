@@ -79,3 +79,6 @@ new_shop_list = tuple(shop_list)
 
 # output
 print("|".join(new_shop_list))
+
+# 6
+
