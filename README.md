@@ -6,18 +6,20 @@
 
 The repository is organized by week:
 
-publica/
-├── week_1/
-│ ├── learning/
-│ ├── tasks/
-│ └── projects/
-├── week_2/
-│ ├── learning/
-│ ├── tasks/
-│ └── projects/
-├── ...
-└── week_n/
-
+publica:
+  week_1:
+    - learning/
+    - tasks/
+    - projects/
+  week_2:
+    - learning/
+    - tasks/
+    - projects/
+  ...
+  week_n:
+    - learning/
+    - tasks/
+    - projects/
 
 Each `week_x` folder contains:
 
