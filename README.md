@@ -46,6 +46,3 @@ Each `week_x` folder contains:
 
 ## 🤝 Contributing
 This is a personal learning journey, but feel free to fork the repo or suggest improvements via issues or pull requests.
-
-##📄 License
-This project is licensed under the MIT License.
