@@ -7,7 +7,7 @@
 The repository is organized by week:
 
 publica/
-├── week_1/\n
+├── week_1/
 │ ├── learning/
 │ ├── tasks/
 │ └── projects/
