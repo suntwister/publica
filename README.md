@@ -11,17 +11,13 @@ publica:
   week_1:
   
     - learning/
-        
     - tasks/
-    
     - projects/
     
   week_2:
   
     - learning/
-    
     - tasks/
-    
     - projects/
     
   ...
@@ -29,9 +25,7 @@ publica:
   week_n:
   
     - learning/
-    
     - tasks/
-    
     - projects/
 
 Each `week_x` folder contains:
