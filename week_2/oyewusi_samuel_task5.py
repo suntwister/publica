@@ -76,3 +76,6 @@ shop_list.append(shop_list5)
 
 # converting back to tuple 
 new_shop_list = tuple(shop_list)
+
+# output
+print("|".join(new_shop_list))
