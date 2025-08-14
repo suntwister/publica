@@ -19,4 +19,4 @@ act_list = [day_1_act, day_2_act, day_3_act]
 # dictionary
 week_plan = { day: activity for day, activity in zip(day_list, act_list)}
 print("\nYour full weekly activity schedule:")
-print(week_plan)
+
