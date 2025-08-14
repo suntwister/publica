@@ -1,0 +1,1 @@
+item_list = ["Rice", "Beans", "Yam", "Semo", "Garri", ]
