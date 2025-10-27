@@ -1,2 +1,6 @@
-git init
-git submodule add https://github.com/wowchemy/starter-hugo-portfolio.git themes/hugo-portfolio-theme
+PS C:\Users\Elux\Documents\GitHub\my-portfolio> git submodule add https://github.com/wowchemy/starter-hugo-portfolio.git themes/hugo-portfolio-theme
+Cloning into 'C:/Users/Elux/Documents/GitHub/my-portfolio/themes/hugo-portfolio-theme'...
+remote: Repository not found.
+fatal: repository 'https://github.com/wowchemy/starter-hugo-portfolio.git/' not found
+fatal: clone of 'https://github.com/wowchemy/starter-hugo-portfolio.git' into submodule path 'C:/Users/Elux/Documents/GitHub/my-portfolio/themes/hugo-portfolio-theme' failed
+PS C:\Users\Elux\Documents\GitHub\my-portfolio> 
