@@ -1,3 +1,3 @@
-[submodule "themes/theme-portfolio"]
-	path = themes/theme-portfolio
-	url = https://github.com/HugoBlox/theme-portfolio
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
